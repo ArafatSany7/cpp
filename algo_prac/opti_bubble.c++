@@ -26,7 +26,7 @@ int main()
     vector<int> arr = {2, 5, 6, 1, 4, 98, 45, 34};
     bsort(arr);
 
-    cout << "Sorted Array : ";
+    cout << "Sorted Array is : ";
     for (int num : arr)
     {
         cout << num << " ";
