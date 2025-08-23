@@ -18,7 +18,7 @@ int main()
     int arr[] = {64, 34, 25, 12, 22, 11, 90};
     int n = 7;
     bubbleSort(arr, n);
-    cout << "Sorted array: ";
+    cout << "Sorted arrayis : ";
     for (int i = 0; i < n; i++)
         cout << arr[i] << " ";
     return 0;
