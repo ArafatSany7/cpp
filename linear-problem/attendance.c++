@@ -16,7 +16,7 @@ int main()
     if (result != student + size)
     {
         int index = result - student;
-        cout << "Attendenc found at index number of number : " << index;
+        cout << "Attendenc found at the index number of number : " << index;
     }
     else
         cout << "Absent";
