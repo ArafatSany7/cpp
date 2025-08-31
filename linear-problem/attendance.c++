@@ -8,7 +8,7 @@ int main()
     int size = sizeof(student) / sizeof(student[0]);
     int key;
 
-    cout << "Enter the student roll for find : ";
+    cout << "Enter the mame of student roll for find : ";
     cin >> key;
 
     int *result = find(student, student + size, key);
