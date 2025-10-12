@@ -1,6 +1,19 @@
 #include <stdio.h>
 int main()
 {
-    double a = 15 / 4;
-    printf("%lf", a);
+    int a = 5;
+
+    if (a < 10)
+    {
+
+        printf("Hello ");
+    }
+    if (a == 5)
+    {
+        printf("hi");
+    }
+    else
+    {
+        printf("no");
+    }
 }
